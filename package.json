@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-crash-course",
+  "version": "1.0.0",
+  "description": "Node Crash Course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laetronaz/nodejs-crash-course.git"
+  },
+  "author": "Michel Pelland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laetronaz/nodejs-crash-course/issues"
+  },
+  "homepage": "https://github.com/Laetronaz/nodejs-crash-course#readme",
+  "dependencies": {
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
